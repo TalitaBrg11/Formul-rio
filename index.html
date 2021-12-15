@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Contato</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Deseja comprar ou alugar um imóvel?</h1>
+        <h2>A M6 Consultoria Imobiliária acha para você!</h2>
+      </header>
+
+      <form action="" method="post">
+        <fieldset>
+          <legend>Comprar ou Alugar?</legend>
+          <div>
+            <label for="property">Alugar</label>
+            <input type="checkbox" id="rent" name="rent" />
+          </div>
+          <div>
+            <label for="property">Comprar</label>
+            <input type="checkbox" id="buy" name="buy" />
+          </div>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Onde deseja residir?</legend>
+          <div>
+            <label for="city">Curitiba</label>
+            <input type="checkbox" id="ctba" name="ctba" />
+          </div>
+          <div>
+            <label for="city">Araucária</label>
+            <input type="checkbox" id="arauc" name="arauc" />
+          </div>
+                    <div>
+            <label for="city">Colombo</label>
+            <input type="checkbox" id="colomb" name="colomb" />
+          </div>
+          <div>
+            <label for="city">Fazenda Rio Grande</label>
+            <input type="checkbox" id="frg" name="frg" />
+          </div>
+          <div>
+            <label for="city">Pinhais</label>
+            <input type="checkbox" id="pinhais" name="pinhais" />
+          </div>
+          <div>
+            <label for="city">São José dos Pinhais</label>
+            <input type="checkbox" id="sjp" name="sjp" />
+          </div>
+          <div>
+            <label for="city">Outro</label>
+            <input type="checkbox" id="other" name="other" />
+            <input type="text" id="othercity" name="othercity">
+          </div>
+          </fieldset>
+        <br />
+        <fieldset>
+          <legend>Quanto quer investir?</legend>
+          <div>
+            <label for="priceMin">Vamor mínimo</label>
+            <input  id="priceMin" name="priceMin" placeholder="Valor mínimo: R$" type="number" min="1" step="any" />
+            <br>
+          
+            <label for="priceMax">Vamor máximo</label>
+            <input  id="priceMax" name="priceMax" placeholder="Valor máximo: R$" type="number" min="1" step="any" />
+          </div>
+        </fieldset>
+        <br>
+        <fieldset>
+        
+          <legend>Contato</legend>
+            <label for="name">Nome</label>
+            <input id="name" type="text" name="name" />
+            <br />
+            
+            <label for="email">e-mail</label>
+            <input id="email" type="email" name="email" />
+            <br />
+           
+            <label for="telefone">Telefone</label>
+            <input
+              type="tel"
+              id="telefone"
+              required
+              placeholder="(xx) xxxxx-xxxx"
+            />
+            <br />
+           
+            <label for="message">Mensagem</label>
+            <textarea
+              name="message"
+              id="message"
+              maxlength="250"
+              placeholder="Deixe sua mensagem"
+            ></textarea>
+          </div>
+        </fieldset>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </body>
+</html>
