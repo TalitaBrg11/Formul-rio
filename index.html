@@ -1,11 +1,15 @@
-<!DOCTYPE html>
+
+      <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Contato</title>
   </head>
   <body>
@@ -38,7 +42,7 @@
             <label for="city">Araucária</label>
             <input type="checkbox" id="arauc" name="arauc" />
           </div>
-                    <div>
+          <div>
             <label for="city">Colombo</label>
             <input type="checkbox" id="colomb" name="colomb" />
           </div>
@@ -57,50 +61,62 @@
           <div>
             <label for="city">Outro</label>
             <input type="checkbox" id="other" name="other" />
-            <input type="text" id="othercity" name="othercity">
+            <input type="text" id="othercity" name="othercity" />
           </div>
-          </fieldset>
+        </fieldset>
         <br />
         <fieldset>
           <legend>Quanto quer investir?</legend>
           <div>
             <label for="priceMin">Vamor mínimo</label>
-            <input  id="priceMin" name="priceMin" placeholder="Valor mínimo: R$" type="number" min="1" step="any" />
-            <br>
-          
-            <label for="priceMax">Vamor máximo</label>
-            <input  id="priceMax" name="priceMax" placeholder="Valor máximo: R$" type="number" min="1" step="any" />
-          </div>
-        </fieldset>
-        <br>
-        <fieldset>
-        
-          <legend>Contato</legend>
-            <label for="name">Nome</label>
-            <input id="name" type="text" name="name" />
-            <br />
-            
-            <label for="email">e-mail</label>
-            <input id="email" type="email" name="email" />
-            <br />
-           
-            <label for="telefone">Telefone</label>
             <input
-              type="tel"
-              id="telefone"
-              required
-              placeholder="(xx) xxxxx-xxxx"
+              id="priceMin"
+              name="priceMin"
+              placeholder="Valor mínimo: R$"
+              type="number"
+              min="1"
+              step="any"
             />
             <br />
-           
-            <label for="message">Mensagem</label>
-            <textarea
-              name="message"
-              id="message"
-              maxlength="250"
-              placeholder="Deixe sua mensagem"
-            ></textarea>
+
+            <label for="priceMax">Vamor máximo</label>
+            <input
+              id="priceMax"
+              name="priceMax"
+              placeholder="Valor máximo: R$"
+              type="number"
+              min="1"
+              step="any"
+            />
           </div>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Contato</legend>
+          <label for="name">Nome</label>
+          <input id="name" type="text" name="name" />
+          <br />
+
+          <label for="email">e-mail</label>
+          <input id="email" type="email" name="email" />
+          <br />
+
+          <label for="telefone">Telefone</label>
+          <input
+            type="tel"
+            id="telefone"
+            required
+            placeholder="(xx) xxxxx-xxxx"
+          />
+          <br />
+
+          <label for="message">Mensagem</label>
+          <textarea
+            name="message"
+            id="message"
+            maxlength="250"
+            placeholder="Deixe sua mensagem"
+          ></textarea>
         </fieldset>
         <button type="submit">Enviar</button>
       </form>
