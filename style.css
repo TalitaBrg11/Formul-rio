@@ -1,7 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: rgb(229, 231, 233);
+}
+.container {
+  background-image: url('./joe-woods-4Zaq5xY5M_c-unsplash.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: auto;
 }
 h1 {
   font-family: 'Amaranth', sans-serif;
@@ -62,18 +67,18 @@ button {
   form {
     font-family: 'Amaranth', sans-serif;
     font-weight: 400;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
   fieldset {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
   }
   legend {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     padding: 0.15rem;
   }
   label {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     padding: 0.2rem;
   }
   input {
